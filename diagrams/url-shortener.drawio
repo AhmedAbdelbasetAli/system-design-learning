@@ -1,1 +1,82 @@
 
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Page-1" id="wmpbY2j1GuaQrMSHJ1H0">
+    <mxGraphModel dx="1042" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="User" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="123" y="8" width="92" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Client Application" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="75" y="112" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Load Balancer" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="88" y="216" width="161" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="API Gateway" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="94" y="320" width="150" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Application Server" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="73" y="424" width="191" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Redis Cache" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="96" y="550" width="146" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Database" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="8" y="677" width="126" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="CDN (Optional)" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="184" y="677" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Analytics Service" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="177" y="781" width="181" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="3" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Fetches Data" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="6" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.21;exitY=1.01;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="7" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="71" y="641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Optional" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1.01;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="7" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="267" y="641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" parent="1" source="9" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
